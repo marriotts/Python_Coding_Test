@@ -1,0 +1,48 @@
+File Searching (7 hours).
+
+    Scenario
+
+You have a big directory tree with many files in it. Some of the files have
+".inform" suffixes.  Some of the files contain instances of the string "port
+#nnnn", where nnnn is a hexadecimal number of some length.
+
+    F1) Core Task
+
+Searching only the files with .inform suffix, count the number of instances
+of each different "port #nnnn" string, where nnnn is a four or more digit
+hexadecimal number to a maximum of 32 digits, and output a table of port
+number against occurrence frequency.
+
+Make sure that each file (piece of data on disk) is only scanned once, and
+that the strings in it are only counted once.
+
+Example Output
+
+Port frq
+0000  1
+1384  5
+28f6  1
+44ff  7
+
+Do *not* use the PERL File::Find module in your solution, or any similar
+module which does all the work for you.
+
+Document any assumptions that you make about the task. Note that assumptions
+may be made at any stage.
+
+Feel free to contact us if you wish to discuss the task.
+
+
+    F2) Non-cyclic links
+
+     For extra credit, modify your program to deal with directory structures
+that contain links, such that there may be more than one path from the root
+to a given .inform file. Assume that the links do not loop.
+
+    F3) Cyclic links
+
+    For even more credit, deal with links that form loops.
+
+    F4) Extra credit (Optional)
+
+    Provide an additional solution which does not use recursion.

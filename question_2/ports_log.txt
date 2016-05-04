@@ -1,0 +1,19 @@
+Interview Python Coding Test: Question 2 - Search Files
+
+                            Port	Frq
+                            ----	---
+                            FFFF	 6
+                            5555	13
+                            1234	 6
+                          12ABCD	12
+                          333333	 1
+                        55555555	 6
+                      F55A0AF0F4	 6
+                     ABCDEF01234	 8
+                   1122334450067	 1
+                 ABCDEF123456789	 6
+                 FF55FF55AAAF0F4	 6
+              ABCD0EF123F56789B0	 1
+        FFFFFFFFFFFFFFFFFFFFFFFF	 7
+       FED0CEEBEDDEEEEE00EEEEE55	 1
+  112233445006778899AABBCCDDEEFF	11

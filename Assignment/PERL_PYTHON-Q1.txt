@@ -1,0 +1,47 @@
+Regular Expression Warmup (<1hour).
+
+Present the solution for each task as a procedure which takes a
+candidate string and prints either "MATCH: " followed by the string
+that was matched, or "NO MATCH" if the test data was not matched.
+
+Also include in your script all your test data, and a procedure that
+will run all the solutions against the relevant test data, announcing
+each of the solutions before they are tested.
+
+Eg:
+
+ Solution 1:
+ ABC
+ MATCH: ABC
+ AABCC
+ MATCH: ABC
+ AAAC
+ NO MATCH
+
+ Solution 2:
+ ...
+
+Extra credit given for clarity and brevity.
+
+   W1) Write a regexp that only matches the string (wherever it
+     occurs):
+
+ABC
+
+   W2) Write a single regexp that matches any of the strings below,and
+     no others:
+
+ABC ACC ADC AXC
+
+   W3) Write a regexp that will only match the following string (When
+     it is on a line entirely by itself.):
+
+ABC
+
+   W4) Write a regexp that matches any and only the strings that start
+	A, and end with B, with anything inbetween. Make note of any
+	assumptions that you make.  
+
+   W5) Write a regexp that matches any and only the strings that start
+	A, and end with B, with a run of one or more of either XO or OX
+	inbetween.

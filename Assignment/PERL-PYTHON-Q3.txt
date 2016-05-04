@@ -1,0 +1,24 @@
+ISO 8601 Date Parser (unspecified time)
+=======================================
+
+This assignment may be more complex than it looks. Take care.
+
+Write a parser which will accept any date/time conforming to the ISO 8601
+standard and print a breakdown of the century, year, month, day, hour, minute,
+second and millisecond specified by that time, indicating if any component
+is undefined.
+
+For example, for the input "2007-06-02" it would print:
+
+Century: 21
+Year: 2007
+Month: 06
+Day: 02
+Hour: undefined
+Minute: undefined
+Second: undefined
+Millisecond: undefined
+
+Document any assumptions you make about the input, and any omissions (valid
+ISO 8601 formats that your parser does not handle).
+
